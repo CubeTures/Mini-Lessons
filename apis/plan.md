@@ -1,7 +1,8 @@
-# CRUD API
+# APIs
 
--   Creating a node.js api using typescript
 -   What is an API
--   Database essentials
--   Decorators
--   Async
+-   Interacting with apis from the outside
+    -   Async
+-   Creating a node.js api using typescript
+    -   Database essentials
+    -   Decorators
