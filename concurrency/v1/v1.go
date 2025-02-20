@@ -1,4 +1,4 @@
-package intro_v1 // added concurrency
+package v1 // added concurrency
 
 import (
 	"time"
@@ -23,9 +23,7 @@ func Run() {
 }
 
 func worker(data *data) {
-	// sleep to simulate a thread that starts slow
-	// go's threads are just too quick
-	time.Sleep(time.Millisecond * 100)
+	time.Sleep(time.Millisecond * 10)
 
 	for range 1000 {
 		data.counter++

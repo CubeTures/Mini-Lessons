@@ -1,4 +1,8 @@
-package intro_v0 // no concurrency
+package v0 // no concurrency
+
+import (
+	"time"
+)
 
 type data struct {
 	counter int
@@ -18,9 +22,11 @@ func Run() {
 }
 
 // a function that does some work
-// theoretically takes a long time
-// for the purposes of now, just a simple loop
+// takes a long time to do that work
 func worker(data *data) {
+	// sleep to simulate some other miscellaneous work
+	time.Sleep(time.Millisecond * 10)
+
 	for range 1000 {
 		data.counter++
 	}

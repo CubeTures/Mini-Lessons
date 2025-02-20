@@ -1,6 +1,9 @@
-# Error Handling
+# Clean Code
 
--   Versions
+-   Commenting
+-   Variable / function names
+-   Functions
+-   Error handling
     -   Throw error
         -   Java, python
     -   Return extra variable

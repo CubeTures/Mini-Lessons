@@ -1,4 +1,4 @@
-package intro_v3 // added mutex
+package v3 // added mutex
 
 import (
 	"sync"
@@ -31,7 +31,7 @@ func Run() {
 }
 
 func worker(data *data) {
-	time.Sleep(time.Millisecond * 100)
+	time.Sleep(time.Millisecond * 10)
 
 	data.mu.Lock()
 	for range 1000 {

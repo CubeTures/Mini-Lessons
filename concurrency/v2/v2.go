@@ -1,4 +1,4 @@
-package intro_v2 // added wait group
+package v2 // added wait group
 
 import (
 	"sync"
@@ -29,7 +29,7 @@ func Run() {
 }
 
 func worker(data *data) {
-	time.Sleep(time.Millisecond * 100)
+	time.Sleep(time.Millisecond * 10)
 
 	for range 1000 {
 		data.counter++

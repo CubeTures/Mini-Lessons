@@ -1,29 +1,25 @@
 package main
 
 import (
-	"concurrency/intro_v0"
-	"concurrency/intro_v1"
-	"concurrency/intro_v2"
-	"concurrency/intro_v3"
+	v0 "concurrency/v0"
+	v1 "concurrency/v1"
+	v2 "concurrency/v2"
+	v3 "concurrency/v3"
 )
 
 func main() {
-	intro()
-}
-
-func intro() {
-	version := 0
+	version := 3
 
 	switch version {
 	case 0:
-		intro_v0.Run()
+		v0.Run()
 	case 1:
-		intro_v1.Run()
+		v1.Run()
 	case 2:
-		intro_v2.Run()
+		v2.Run()
 	case 3:
-		intro_v3.Run()
+		v3.Run()
 	default:
-		println("Invalid version for intro")
+		println("Invalid version", version)
 	}
 }
