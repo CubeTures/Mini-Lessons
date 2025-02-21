@@ -12,7 +12,8 @@
 
 ```bash
 python3 -m venv venv
-source venv/bin/python3
+source venv/bin/activate.fish
+pip install -r requirements.txt
 
 coverage -m pytest
 ```
