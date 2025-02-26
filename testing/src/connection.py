@@ -1,5 +1,4 @@
 import sqlite3
-from typing import Any
 
 
 class Connection:
@@ -10,8 +9,10 @@ class Connection:
         self.conn = sqlite3.connect("database.db")
         self.cur = self.conn.cursor()
 
-    def execute(self, command: str) -> list[Any]:
+    def execute(self, command: str):
         self.cur.execute(command)
+
+    def fetch(self):
         return self.cur.fetchall()
 
     def __del__(self):

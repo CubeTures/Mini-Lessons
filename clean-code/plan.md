@@ -14,3 +14,4 @@
         -   Windows API
 -   Self documenting code
     -   Why python kinda sucks
+-   Use formatters and linters
