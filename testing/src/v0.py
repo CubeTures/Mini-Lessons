@@ -1,7 +1,7 @@
 from src.connection import Connection
 
 
-# 0. a lot of information about setup of testing will be skipped in the lesson in the interest of time, read the notes.md for more info
+# 0. a lot of information about the setup of testing will be skipped in the lesson in the interest of time, read the notes.md for more info
 # 1. this is a simple crud app from getting data from a local sqlite database
 # 2. can you find the error? -- not even the type checker will save you
 # 3. visual inspection is never enough when writing code
