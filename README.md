@@ -4,12 +4,14 @@ A group of small lessons on various programming topics in various programming la
 
 # Lessons
 
+Lessons can be taken in any order and don't assume any prior knowledge.
+
 | Lesson               | Status         |
 | -------------------- | -------------- |
-| Concurrency          | Presented      |
-| Testing              | In Progress    |
-| C Programming        | Barely Started |
 | APIs                 | Not Started    |
-| Database Design      | Not Started    |
+| C Programming        | Barely Started |
 | Clean Code           | Not Started    |
+| Concurrency          | Complete       |
 | Data Oriented Design | Not Started    |
+| Database Design      | Not Started    |
+| Testing              | In Progress    |

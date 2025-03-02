@@ -21,7 +21,7 @@ class CRUD:
     def put(self, id: str | int, item: dict[str, str | int]) -> str | None:
         old = self.read(id)
         self.conn.execute(
-            f"INSERT INTO {self.table} values {self._serialize_item(item)}"
+            f"INSERT OR REPLACE INTO {self.table} values {self._serialize_item(item)}"
         )
         return old
 

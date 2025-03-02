@@ -24,7 +24,7 @@ class CRUD:
     # return the overwritten object (if any)
     def put(self, id: str | int, item: dict[str, str | int]) -> str | None:
         old = self.read(id)
-        self.conn.execute(f"INSERT INTO {self.table} values {item}")
+        self.conn.execute(f"INSERT OR REPLACE INTO {self.table} values {item}")
         return old
 
     # return the deleted item (if any)

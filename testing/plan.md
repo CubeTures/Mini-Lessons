@@ -33,5 +33,3 @@ coverage -m pytest
     -   Different types of testing
 -   The dependency issue
     -   Mock the connection `v3` and dependency injection for setup `test_v3`
-    -   Decorators for optimal testing `test_v4`
-    -   Meta programming: "A programming technique that allows programs to modify or create other code."
