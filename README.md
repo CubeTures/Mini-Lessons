@@ -6,12 +6,12 @@ A group of small lessons on various programming topics in various programming la
 
 Lessons can be taken in any order and don't assume any prior knowledge.
 
-| Lesson               | Status         |
-| -------------------- | -------------- |
-| APIs                 | Not Started    |
-| C Programming        | Barely Started |
-| Clean Code           | Not Started    |
-| Concurrency          | Complete       |
-| Data Oriented Design | Not Started    |
-| Database Design      | Not Started    |
-| Testing              | In Progress    |
+| Lesson                              | Status      |
+| ----------------------------------- | ----------- |
+| APIs                                | Not Started |
+| C Programming                       | Not Started |
+| Clean Code                          | Not Started |
+| [Concurrency](concurrency/notes.md) | Complete    |
+| Data Oriented Design                | Not Started |
+| Database Design                     | Not Started |
+| [Testing](testing/notes.md)         | Complete    |
